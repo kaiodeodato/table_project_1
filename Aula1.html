@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<html lang="pt-BR">
+	<meta charset="utf-8">
+	<title>javascript puro</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div id="corpo_superior">
+		<div id="menu_superior">
+			<div class="div_superior">
+				<p>Name</p>
+				<input placeholder="Digite aqui..." id="input_name" maxlength="40" type="text">
+			</div>
+			<div class="div_superior">
+				<p>Date</p>
+				<input id="input_date" type="date">
+			</div>
+			<div class="div_superior">
+				<p>Amount</p>
+				<input placeholder="$" id="input_amount" type="number">
+			</div>
+		</div>
+
+		<button id="add" onclick="add()">ADD</button>
+	</div>
+
+	<table>
+		<thead class="table">
+			<tr>
+				<th>Name</th>
+				<th id="date" >Date</th>
+				<th id="amount" >Amount</th>
+				<th width=23 ></th>
+			</tr>
+		</thead>
+
+		<tbody id="body_table">
+			
+
+
+		</tbody>
+
+
+
+	</table>
+
+	<script src="script.js"></script>
+</body>
+</html>

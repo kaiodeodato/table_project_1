@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+body{
+    font-family: 'Cutive Mono', monospace;
+}
+
+#corpo_superior{
+    font-size: 20px;
+    position: relative;
+    margin: auto;
+    background-color: rgb(204, 231, 219);
+    width: 1000px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#menu_superior{
+    display: flex;
+}
+
+.div_superior{
+    margin: 20px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#add{
+    position: relative;
+    width: 50px;
+    border: none;
+    background-color: rgb(51, 141, 33);
+    color: white;
+    height: 20px;
+    border-radius: 5px;
+}
+p{
+    margin: 10px;
+}
+
+
+table {
+
+    position: relative;
+    top:50px;
+    margin: auto;
+    table-layout: auto;
+    width: 900px;
+}
+
+th {
+    border: 1px solid rgb(216, 208, 208);
+    background-color: rgb(222, 255, 206);
+}
+th#date{
+    width: 110px;
+} 
+th#amount{
+    width: 130px;
+}
+td {
+    border: 1px solid rgb(216, 208, 208);
+    text-align: center;
+
+}
+#botao_espaco{
+    width: 5px;
+
+}
+
+#botao {
+    margin: 0px;
+}
